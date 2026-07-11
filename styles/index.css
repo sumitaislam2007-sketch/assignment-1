@@ -13,6 +13,9 @@ body{
 .flex{
     display: flex;
 }
+.center{
+    text-align: center;
+}
 .section-title{
     font-weight: bold;
     font-size: 3.5rem;
@@ -26,6 +29,9 @@ body{
     border-radius: 10px;
     padding: 10px 35px;
     font-weight: bold;
+}
+.light-gray{
+    color: #575757;
 }
 
 
@@ -75,7 +81,7 @@ nav li{
 }
 /* main section style */
 main section{
-    margin: 80px 50px;
+    margin: 100px 50px;
 }
 .speaker-container{
     display: grid;
@@ -83,7 +89,7 @@ main section{
     gap: 30px;
     margin-top: 55px;
 }
-.speaker{
+.speaker, .card{
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     width: fit-content;
@@ -107,4 +113,46 @@ main section{
 .speaker p{
     font-size: 14px;
     color: #575757;
+}
+/* pricing section */
+.pricing-section h3{
+    margin-bottom: 12px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 48px;
+}
+.card{
+    width: 370px;
+    padding: 30px;
+}
+.card h3{
+    font-size: 44px;
+    margin-top: 8px;
+}
+.card ul{
+    margin: 20px 0;
+}
+.card li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333333;
+}
+.card2{
+    background-color: #0d1d2a;
+    color: #FFFFFF;
+}
+.card2 ul li{
+    color: #FFFFFF;
+}
+.card3{
+    background-color: #F8F9FB;
+}
+.card hr{
+    margin-top: 20px;
+}
+.light{
+    color: #93C5FD;
 }
