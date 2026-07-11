@@ -90,15 +90,18 @@ main section{
     margin-top: 55px;
 }
 .speaker{
-    width: 200px;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+
 }
-.speaker, .card{
+.card{
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     width: fit-content;
 }
 .speaker-img img{
     border-radius: 12px 12px 0 0;
+    width: 100%;
 }
 .speaker-content{
     padding: 24px 0 24px 24px;
