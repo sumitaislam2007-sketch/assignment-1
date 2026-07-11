@@ -160,3 +160,26 @@ main section{
 .light{
     color: #93C5FD;
 }
+/* footer style */
+footer{
+    background-color: #0D1B2A;
+    height: 400px;
+    color: #FFFFFF;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px 100px 100px;
+}
+footer i{
+    border: 1px solid #FFFFFF;
+    padding: 5px 8px;
+    margin-top: 12px;
+}
+.div1 p{
+    margin-top: 12px;
+}
+footer hr{
+    width: 1000px;
+    margin: 20px auto;
+}
