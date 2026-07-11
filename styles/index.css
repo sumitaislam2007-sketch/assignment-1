@@ -125,7 +125,7 @@ main section{
     margin-top: 48px;
 }
 .card{
-    width: 300px;
+    /* width: 300px; */
     padding: 30px;
 }
 .card h3{
