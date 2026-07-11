@@ -59,7 +59,6 @@ nav li{
 
 .banner-content{
     padding: 100px 200px;
-    border: 2px solid red;
 }
 .banner-title{
     font-weight: bold;
@@ -67,7 +66,7 @@ nav li{
 }
 .banner-subtitle{
     font-size: 1.3rem;
-    margin-top: 16px;
+    margin-top: 50px;
 }
 .big-btn{
     font-size: 1.5rem;
@@ -76,7 +75,7 @@ nav li{
 }
 /* main section style */
 main section{
-    margin: 80px 100px;
+    margin: 80px 50px;
 }
 .speaker-container{
     display: grid;
