@@ -81,13 +81,16 @@ nav li{
 }
 /* main section style */
 main section{
-    margin: 100px 50px;
+    margin: 100px 100px;
 }
 .speaker-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-top: 55px;
+}
+.speaker{
+    width: 400px;
 }
 .speaker, .card{
     border: 1px solid #E5E7EB;
