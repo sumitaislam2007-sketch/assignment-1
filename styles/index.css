@@ -34,4 +34,36 @@ nav li{
     color: #575757;
     font-weight: 500;
     font-family: "Arimo", sans-serif;
+    list-style: none;
+}
+
+/* banner style */
+.banner{
+    background:  linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0)),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.88)),
+    url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    color: #FFFFFF;
+    height: 700px;
+    text-align: center;
+}
+
+.banner-content{
+    padding: 100px 420px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 5rem;
+}
+.banner-subtitle{
+    font-size: 1.3rem;
+    margin-top: 16px;
+}
+.big-btn{
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    margin-top: 290px;
 }
