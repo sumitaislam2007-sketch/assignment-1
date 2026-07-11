@@ -13,6 +13,12 @@ body{
 .flex{
     display: flex;
 }
+.section-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #000102;
+    text-align: center;
+}
 .btn-primary{
     background-color: #1D4ED8;
     color: #FFFFFF;
@@ -70,5 +76,36 @@ nav li{
 }
 /* main section style */
 main section{
-    margin-top: 80px;
+    margin: 80px 100px;
+}
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 55px;
+}
+.speaker{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: fit-content;
+}
+.speaker-img img{
+    border-radius: 12px 12px 0 0;
+}
+.speaker-content{
+    padding: 24px 0 24px 24px;
+}
+.speaker small{
+    font-weight: 600;
+    font-size: 12px;
+    color: #2563EB;
+}
+.speaker h5{
+    font-size: 20px;
+    color: #0D1B2A;
+    margin: 8px 0;
+}
+.speaker p{
+    font-size: 14px;
+    color: #575757;
 }
